@@ -13,6 +13,8 @@ import MyTrips from './my-trips/index.jsx'
 import { SEOProvider } from './context/SEOContext.jsx'
 import { HelmetProvider } from 'react-helmet-async'
 import HowItWorks from './components/custom/HowItWorks.jsx'
+import ContactUs from './components/custom/ContactUs.jsx'
+import UserManual from './components/custom/UserManual.jsx'
 import { AuthProvider } from './context/AuthContext.jsx'
 import { PlacePhotoProvider } from './context/PlacePhotoContext.jsx'
 import { Analytics } from "@vercel/analytics/react"
@@ -38,6 +40,14 @@ const router=createBrowserRouter([
   {
     path:'/how-it-works',
     element:<HowItWorks/>
+  },
+  {
+    path:'/contact',
+    element:<ContactUs/>
+  },
+  {
+    path:'/user-manual',
+    element:<UserManual/>
   }
 ])
 

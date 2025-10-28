@@ -1,7 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { useSEO } from '@/context/SEOContext';
 
 const UserManual = () => {
+  const { pageSEO } = useSEO();
   const [activeSection, setActiveSection] = useState('introduction');
+
+  useEffect(() => {
+    pageSEO.userManual();
+  }, [pageSEO]);
 
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
@@ -87,11 +93,11 @@ const UserManual = () => {
                 <section id="introduction" className="mb-10">
                   <h2 className="text-2xl font-bold text-gray-800 mb-4 pb-2 border-b">1. Introduction</h2>
                   <p className="mb-4">
-                    Welcome to <strong>Viaona</strong>, your AI-powered travel companion!
+                    Welcome to <strong>VoyageX</strong>, your AI-powered travel companion!
                   </p>
                   <p className="mb-4">
-                    With Viaona, you can effortlessly plan your dream trips, explore personalized itineraries, and manage your travel preferences. 
-                    Whether you're a solo traveler, a couple, a family, or a group of friends, Viaona tailors your travel experience according to your 
+                    With VoyageX, you can effortlessly plan your dream trips, explore personalized itineraries, and manage your travel preferences.
+                    Whether you're a solo traveler, a couple, a family, or a group of friends, VoyageX tailors your travel experience according to your
                     specific needs.
                   </p>
                   <p>
@@ -481,8 +487,8 @@ const UserManual = () => {
 
                 {/* Copyright Footer */}
                 <div className="mt-12 pt-6 border-t text-center text-gray-500 text-sm">
-                  <p>© 2025 Viaona. All rights reserved.</p>
-                  <p className="mt-1">This user manual is the property of Viaona and may not be reproduced without permission.</p>
+                  <p>© 2025 VoyageX. All rights reserved.</p>
+                  <p className="mt-1">This user manual is the property of VoyageX and may not be reproduced without permission.</p>
                 </div>
               </div>
             </div>

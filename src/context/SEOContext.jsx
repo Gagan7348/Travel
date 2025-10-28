@@ -224,6 +224,72 @@ export function SEOProvider({ children }) {
         ]
       }
     }),
+
+    contact: () => updateSEO({
+      title: 'Contact Us | VoyageX - AI-Powered Travel Companion',
+      description: 'Get in touch with the VoyageX team. Have questions about our AI travel planner? Need help with your itinerary? We\'re here to help you plan the perfect trip.',
+      keywords: 'contact VoyageX, travel planner support, AI travel help, itinerary assistance, travel planning questions, customer support',
+      canonical: `${baseUrl}/contact`,
+      openGraph: {
+        title: 'Contact Us | VoyageX - AI-Powered Travel Companion',
+        description: 'Get in touch with the VoyageX team. Have questions about our AI travel planner? Need help with your itinerary? We\'re here to help you plan the perfect trip.',
+        url: `${baseUrl}/contact`,
+      },
+      twitter: {
+        title: 'Contact Us | VoyageX - AI-Powered Travel Companion',
+        description: 'Get in touch with the VoyageX team. Have questions about our AI travel planner? Need help with your itinerary? We\'re here to help you plan the perfect trip.',
+        url: `${baseUrl}/contact`,
+      },
+      schema: {
+        "@context": "https://schema.org",
+        "@type": "ContactPage",
+        "name": "Contact VoyageX",
+        "description": "Get in touch with the VoyageX team for support with our AI-powered travel planning platform.",
+        "url": `${baseUrl}/contact`,
+        "mainEntity": {
+          "@type": "Organization",
+          "name": "VoyageX",
+          "email": "Teams@VoyageX.com",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer service",
+            "email": "Teams@VoyageX.com"
+          }
+        }
+      }
+    }),
+
+    userManual: () => updateSEO({
+      title: 'User Manual | VoyageX - AI-Powered Travel Companion',
+      description: 'Complete guide to using VoyageX. Learn how to create personalized travel itineraries, manage your trips, and make the most of our AI-powered travel planning features.',
+      keywords: 'VoyageX user manual, travel planner guide, AI itinerary creation, trip planning tutorial, travel app help, user documentation',
+      canonical: `${baseUrl}/user-manual`,
+      openGraph: {
+        title: 'User Manual | VoyageX - AI-Powered Travel Companion',
+        description: 'Complete guide to using VoyageX. Learn how to create personalized travel itineraries, manage your trips, and make the most of our AI-powered travel planning features.',
+        url: `${baseUrl}/user-manual`,
+      },
+      twitter: {
+        title: 'User Manual | VoyageX - AI-Powered Travel Companion',
+        description: 'Complete guide to using VoyageX. Learn how to create personalized travel itineraries, manage your trips, and make the most of our AI-powered travel planning features.',
+        url: `${baseUrl}/user-manual`,
+      },
+      schema: {
+        "@context": "https://schema.org",
+        "@type": "TechArticle",
+        "name": "VoyageX User Manual",
+        "description": "Comprehensive guide to using the VoyageX AI-powered travel planning platform.",
+        "url": `${baseUrl}/user-manual`,
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": `${baseUrl}/user-manual`
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "VoyageX"
+        }
+      }
+    }),
     
   };
 
