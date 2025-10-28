@@ -14,7 +14,7 @@ const TermsOfService = () => {
           <div className="prose prose-sm max-w-none text-gray-600">
             <h2 className="text-xl font-semibold text-gray-800 mt-6 mb-4">1. Introduction</h2>
             <p>
-              Welcome to Viaona.com ("we," "our," or "us"). By accessing or using our website, mobile application, or any other related services (collectively, the "Service"), you agree to be bound by these Terms of Service.
+              Welcome to VoyageX.com ("we," "our," or "us"). By accessing or using our website, mobile application, or any other related services (collectively, the "Service"), you agree to be bound by these Terms of Service.
             </p>
             <p>
               Please read these Terms carefully. If you do not agree with these Terms, you should not access or use our Service.
@@ -22,7 +22,7 @@ const TermsOfService = () => {
             
             <h2 className="text-xl font-semibold text-gray-800 mt-6 mb-4">2. Description of Service</h2>
             <p>
-               Viaona.com is an AI-powered travel planning platform that helps users create personalized travel itineraries. Our Service allows you to:
+               VoyageX.com is an AI-powered travel planning platform that helps users create personalized travel itineraries. Our Service allows you to:
             </p>
             <ul className="list-disc pl-6 mb-4">
               <li>Create customized travel plans based on your preferences</li>

@@ -367,8 +367,8 @@ const ContactUs = () => {
                   </div>
                   <div className="ml-4">
                     <p className="text-sm font-medium text-gray-900">Email Us</p>
-                    <a href="mailto:Teams@Viaona.com" className="text-base text-blue-600 hover:text-blue-800 transition-colors">
-                    Teams@Viaona.com
+                    <a href="mailto:Teams@VoyageX.com" className="text-base text-blue-600 hover:text-blue-800 transition-colors">
+                    Teams@VoyageX.com
                     </a>
                   </div>
                 </div>
