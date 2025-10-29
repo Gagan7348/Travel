@@ -3,7 +3,7 @@ export const SelectTravelesList=[
         id:1,
         title:'Just Me',
         desc:'A sole traveles in exploration',
-        icon:'✈️',
+        icon:'🛩️',
         people:'1'
     },
     {
