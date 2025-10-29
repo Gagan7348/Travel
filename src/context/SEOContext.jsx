@@ -7,7 +7,7 @@ const SEOContext = createContext();
 export const useSEO = () => useContext(SEOContext);
 
 export function SEOProvider({ children }) {
-  // Base URL for the website
+  
   const baseUrl = 'https://voyagex.com';
   
   // Default SEO values
