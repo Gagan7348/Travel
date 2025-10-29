@@ -3,7 +3,6 @@ import { Helmet } from 'react-helmet-async';
 
 // Create SEO context
 const SEOContext = createContext();
-
 export const useSEO = () => useContext(SEOContext);
 
 export function SEOProvider({ children }) {
