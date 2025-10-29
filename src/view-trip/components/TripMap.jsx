@@ -37,8 +37,6 @@ const dayColors = [
   '#8BC34A', // light green
   '#3F51B5', // indigo
 ];
-
-// Define category colors
 const categoryColors = {
   hotel: '#2196F3', // blue
   place: '#4CAF50', // green
