@@ -5,7 +5,7 @@
 
 const GOOGLE_MAPS_API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
 
-// Cache for geocoding results to minimize API calls
+// Cache for geocoding results to minimize API call
 const geocodeCache = {};
 
 /**
