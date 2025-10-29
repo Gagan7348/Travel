@@ -58,7 +58,7 @@ function Header() {
           href="/"
           className="flex items-center transition-transform hover:scale-105"
         >
-          <img src="/logo.png" alt="AI Travel Guide" className="h-12" />
+          <img src="/logo.png" alt="VoyageX" className="h-12" />
         </a>
 
         {/* Navigation Links - Desktop */}
