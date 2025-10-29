@@ -60,7 +60,6 @@ function CreateTrip() {
       [name]: value
     });
   }
-
   useEffect(() => {
     console.log(formData);
   }, [formData]);
