@@ -126,7 +126,7 @@ function Hero() {
             >
               <span className="flex items-center">
                 <MdOutlineAutoAwesome className="mr-1" />
-                AI-Powered Travel Planning
+                VOYAGEX Travel Planning
               </span>
             </motion.div>
             
