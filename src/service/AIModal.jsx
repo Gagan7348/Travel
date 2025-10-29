@@ -9,7 +9,7 @@ export const chatSession = async (userMessage) => {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        model: 'sonar-pro', // Updated to use the correct model name
+        model: 'sonar-pro', 
         messages: [
           {
             role: 'system',
