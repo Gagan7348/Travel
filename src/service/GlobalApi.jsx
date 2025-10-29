@@ -2,7 +2,7 @@ import axios from "axios"
 import { apiMonitor } from './APIMonitoring';
 
 const BASE_URL='https://places.googleapis.com/v1/places:searchText'
-const CACHE_DURATION = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
+const CACHE_DURATION = 24 * 60 * 60 * 1000; // 24 hours in millisecond
 
 // Cache for place details and photos
 const placeCache = {};
