@@ -137,7 +137,7 @@ function Hero() {
               variants={fadeInUpVariants}
               className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight"
             >
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#f56551] to-[#f79577]">
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-emerald-600 to-teal-500">
                 Plan Your Next Adventure
               </span>
               <br /> with the Power of AI
@@ -184,7 +184,7 @@ function Hero() {
                     <HiOutlineMicrophone className="h-5 w-5" />
                   </button>
                   <Link to={'/create-trip'}>
-                    <Button className="m-1 rounded-full bg-gradient-to-r from-[#f56551] to-[#f79577] hover:opacity-90 px-6">
+                    <Button className="m-1 rounded-full bg-gradient-to-r from-emerald-600 to-teal-500 hover:opacity-90 px-6">
                       <FiArrowRight className="mr-2" /> Plan Trip
                     </Button>
                   </Link>
@@ -531,16 +531,16 @@ function Hero() {
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 2, duration: 0.7 }}
-        className="max-w-7xl mx-auto mt-24 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl overflow-hidden shadow-xl"
+        className="max-w-7xl mx-auto mt-24 bg-gradient-to-r from-emerald-600 to-teal-500 rounded-2xl overflow-hidden shadow-xl"
       >
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/2 p-12 text-white">
             <h2 className="text-3xl font-bold mb-4">Ready to explore the world?</h2>
-            <p className="mb-8 text-blue-100">Start planning your dream trip today with our AI-powered itinerary generator.</p>
+            <p className="mb-8 text-emerald-100">Start planning your dream trip today with our AI-powered itinerary generator.</p>
             <Link to={'/create-trip'}>
-              <Button className="rounded-full bg-white text-blue-600 hover:bg-blue-50 px-8 py-6">
-                Get Started, It's Free <FiArrowRight className="ml-2" />
-              </Button>
+            <Button className="rounded-full bg-white text-emerald-600 hover:bg-emerald-50 px-8 py-6">
+              Get Started, It's Free <FiArrowRight className="ml-2" />
+            </Button>
             </Link>
           </div>
           <div className="md:w-1/2 relative">
@@ -549,7 +549,7 @@ function Hero() {
               alt="Travel" 
               className="h-full w-full object-cover"
             />
-            <div className="absolute inset-0 bg-blue-900/20"></div>
+            <div className="absolute inset-0 bg-emerald-900/20"></div>
           </div>
         </div>
       </motion.div>

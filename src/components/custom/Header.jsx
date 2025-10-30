@@ -162,7 +162,7 @@ function Header() {
           ) : (
             <Button
               onClick={() => setOpenDialog(true)}
-              className="rounded-full bg-gradient-to-r from-blue-500 to-purple-600 hover:shadow-lg transition-all duration-300 px-6"
+              className="rounded-full bg-gradient-to-r from-emerald-600 to-teal-500 hover:shadow-lg transition-all duration-300 px-6"
             >
               Sign In
             </Button>
@@ -253,7 +253,7 @@ function Header() {
                 setMobileMenuOpen(false);
                 setOpenDialog(true);
               }}
-              className="w-full rounded-full bg-gradient-to-r from-blue-500 to-purple-600 hover:shadow-lg transition-all duration-300 px-6"
+              className="w-full rounded-full bg-gradient-to-r from-emerald-600 to-teal-500 hover:shadow-lg transition-all duration-300 px-6"
             >
               Sign In
             </Button>
