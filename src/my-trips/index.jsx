@@ -13,10 +13,7 @@ function MyTrips() {
     GetUserTrips();
   },[])
 
-  /**
-   * Used to Get All User Trips
-   * @returns 
-   */
+  //this is the corrected code
   const GetUserTrips=async()=>{
     const user=JSON.parse(localStorage.getItem('user'));
     console.log(user)
